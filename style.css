@@ -1,0 +1,56 @@
+@import url('');
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    width: 600px;
+    background-image: url('./asset/photo-1583418007992-a8e33a92e7ad.avif');
+    background-size: cover;
+    display: flex;
+    border: 6px solid goldenrod;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 80px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+button {
+    margin: 10px;
+    color: #016f32;
+    font-weight: bold;
+    background: goldenrod;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+button:focus {
+    outline: none;
+}
+
+p#message-el {
+    font-size: 24px;
+}
